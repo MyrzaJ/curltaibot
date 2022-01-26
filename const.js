@@ -63,3 +63,5 @@ module.exports.text2 = text2
 module.exports.text3= text3
 module.exports.text4 = text4
 module.exports.text5= text5
+module.exports.text6=text6
+module.exports.text7=text7

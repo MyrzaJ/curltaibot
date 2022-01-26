@@ -72,8 +72,8 @@ addActionBot('btn_2',false, text.text2)
 addActionBot('btn_3', false, text.text3,)
 addActionBot('btn_4', false, text.text4)
 addActionBot('btn_5', false, text.text5)
-addActionBot('btn_31', false, text.text5)
-addActionBot('btn_32', false, text.text5)
+addActionBot('btn_31', false, text.text6)
+addActionBot('btn_32', false, text.text7)
 
 bot.launch()
 
