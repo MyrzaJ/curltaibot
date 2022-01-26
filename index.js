@@ -67,8 +67,12 @@ bot.command('action', async (ctx) => {
     }
     )
     bot.on('message', async(ctx, next)=> {
-        await ctx.forwardMessage('-1001563876073');
-        next();
+        try{
+            await ctx.forwardMessage('-1001563876073');
+            next();
+        } catch(e) {
+            console.error(e)
+        }
     })
 
 addActionBot('btn_1', false, text.text1)
